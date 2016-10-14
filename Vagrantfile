@@ -6,4 +6,5 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", path: "boot.sh"
   
   config.vm.network "forwarded_port", guest: 80, host: 8980
+  config.vm.network "forwarded_port", guest: 8124, host: 8981
 end
