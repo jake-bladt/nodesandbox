@@ -1,1 +1,1 @@
-{}
+var fs = require("fs");
