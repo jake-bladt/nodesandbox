@@ -3,7 +3,7 @@ var higherFn = function(fName, lName) {
     firstName: fName,
     lastName: lName,
     getFullName: function() {
-      return this.firstName + " " + this.LastName;
+      return this.firstName + " " + this.lastName;
     }
   }
 };
