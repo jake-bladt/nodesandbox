@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jake Bladt <jake@jakebladt.com> (http://jake-bladt.github.io)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
